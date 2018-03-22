@@ -1,0 +1,574 @@
+#+LATEX_CLASS: beamer
+
+#+LaTeX_CLASS_OPTIONS: [aspectratio=169]
+
+#+STARTUP: beamer
+
+#+OPTIONS: ':nil *:t -:t ::t <:t H:2 \n:t ^:t arch:headline
+#+OPTIONS: author:t c:nil creator:nil d:(not "LOGBOOK") date:t e:t
+#+OPTIONS: email:t f:t inline:t num:t p:nil pri:nil prop:nil stat:t
+#+OPTIONS: tags:nil tasks:t tex:t timestamp:t title:t toc:t todo:t |:t
+
+#+BEAMER_THEME: metropolismetro
+# Metropolis theme revamped with colors from Metro theme
+
+\definecolor{MetroOrange}{RGB}{245,141,1}
+\definecolor{MetroPurple}{RGB}{192,80,77}
+\definecolor{MetroViolet}{RGB}{128,100,162}
+\definecolor{MetroGreen}{RGB}{155,187,89}
+\definecolor{MetroRed}{RGB}{232,64,46}
+\definecolor{MetroLightBlue}{RGB}{75,172,198}
+\definecolor{MetroVisitedLink}{RGB}{198,217,240}
+\definecolor{MetroLightViolet}{RGB}{179,163,200}
+
+#+TITLE: Academic Writing in French
+#+DATE: October 25, 2016
+#+AUTHOR: Marie-Hélène Burle
+#+EMAIL: msb2@sfu.ca
+#+LATEX_HEADER: \institute{\begin{normalsize}\textcolor{MetroRed}{\textbf{Student Learning Commons\\Research Commons}}\end{normalsize}\\\\\\^1msb2@sfu.ca}
+
+* Orthographe et typographie
+
+** Quelques différences à connaître entre le français et l'anglais
+
+*** Majuscules
+\thinsp
+*Noms et adjectifs de nationalité*
+\thinsp
+_Noms_
+Les habitants d'un pays \rightarrow majuscule
+#+BEGIN_VERSE
+Je suis une Française et tu es un Canadien
+#+END_VERSE
+Les langues \rightarrow *pas de majuscule*
+#+BEGIN_VERSE
+Le français et l'anglais sont deux langues indo-européennes
+#+END_VERSE
+_Adjectifs_
+Les adjectifs de nationalité \rightarrow *pas de majuscules*
+#+BEGIN_VERSE
+Je suis française et tu es canadien
+#+END_VERSE
+
+** Quelques différences à connaître entre le français et l'anglais
+
+*** Majuscules
+\thinsp
+*Jours de la semaine et mois*
+\thinsp
+Les jours de la semaine et les mois \rightarrow *pas de majuscules*
+#+BEGIN_VERSE
+Le lundi et le mardi
+Le jeudi 3 mars
+Tous les dimanches de novembre
+#+END_VERSE
+
+** Quelques différences à connaître entre le français et l'anglais
+
+*** Ponctuation
+\thinsp
+Il faut un espace avant les deux points, le point d'interrogation et le point d'exclamation
+#+BEGIN_VERSE
+Tu viens ?
+Ah non !
+#+END_VERSE
+Les guillemets sont différents et il faut un espace entre les guillemets et le texte
+#+BEGIN_VERSE
+Il lui dit : « d'accord »
+#+END_VERSE
+#+BEGIN_QUOTE
+Note: un éditeur de texte (par exemple MS Word ou OpenOffice Writer) fera tout ça automatiquement pour vous si vous le mettez en français
+#+END_QUOTE
+
+** Quelques différences à connaître entre le français et l'anglais
+
+*** "et" et la virgule
+\thinsp
+L'usage d'une virgule avec "et" est différent en français et en anglais:
+\thinsp
+\loz En anglais, il faut une virgule avant "and" dans une énumération
+#+BEGIN_VERSE
+Cats, dogs, and pigs
+#+END_VERSE
+\loz En français, il n'y a pas de virgule avant "et"
+#+BEGIN_VERSE
+Le chat, le chien et le renard
+#+END_VERSE
+
+** Utiliser la prononciation et le féminin
+
+*** Les accents
+\thinsp
+3 prononciations différentes
+\nbsp \nbsp \nbsp \nbsp é
+\nbsp \nbsp \nbsp \nbsp è, ai, ais/ait/aient
+\nbsp \nbsp \nbsp \nbsp ê, aî
+\emsp
+*** La fin des noms et adjectifs
+\thinsp
+Mettre un mot au féminin peut aider à trouver l'orthographe du masculin
+#+BEGIN_VERSE
+chat \rightarrow chatte
+remis \rightarrow remise
+#+END_VERSE
+
+* Grammaire
+
+** Voix active/passive
+\thinsp
+*** Définition
+\thinsp
+_Voix active_:
+\nbsp \nbsp le sujet fait l'action
+\thinsp
+_Voix passive_:
+\nbsp \nbsp le sujet subit l'action et le complément d'agent (introduit par "par") fait l'action
+\thinsp
+#+BEGIN_VERSE
+Le complément d'agent fait l'action (voix active)
+L'action est faite _par_ le complément d'agent (voix passive)
+
+Notre équipe a réalisé une étude
+Une étude a été réalisée _par_ notre équipe
+#+END_VERSE
+
+** Voix active/passive
+\thinsp
+*** Écrivez à l'actif!
+\emsp
+Pendant longtemps, il était d'usage d'utiliser la voix passive dans les travaux académiques (par modestie?)
+\thinsp
+Cette habitude est vraiment tombée en désuétude et je vous encourage vivement à utiliser la voix active:
+1. la construction est beaucoup plus directe
+2. il est maintenant d'usage d'annoncer clairement et sans détour que nous sommes l'auteur d'un travail
+Malheureusement, les étudiants continuent trop souvent à écrire au passif, rendant les textes tortueux et le style inutilement lourd
+
+** Règles d'accord
+\emsp
+*** Les adjectifs
+\thinsp
+S'accordent en genre et en nombre avec le nom auquel ils se rapportent
+\emsp
+*** Les participes passés
+\thinsp
+_Avec l'auxiliaire être_
+
+Les participes passés s'accordent en genre et en nombre avec le sujet
+\thinsp
+_Avec l'auxiliaire avoir_
+
+Les participes passés s'accordent en genre et en nombre avec le complément d'objet direct, *si celui-ci est placé avant le verbe*
+
+Sinon, ils sont invariables
+
+*En aucun cas, ils ne s'accordent avec le sujet*
+
+** Règles d'accord
+
+*Pas de panique, c'est en fait simple!!*
+\emsp
+#+BEGIN_QUOTE
+Auxiliaire être
+#+END_QUOTE
+#+BEGIN_VERSE
+Il est tombé
+Ils sont tombés
+Elles sont tombées
+#+END_VERSE
+
+** Règles d'accord
+
+*Pas de panique, c'est en fait simple!!*
+\emsp
+#+BEGIN_QUOTE
+Auxiliaire avoir - COD /après/ le verbe
+#+END_QUOTE
+#+BEGIN_VERSE
+Il a pris un verre
+Il a pris une pomme
+Il a pris des pommes
+#+END_VERSE
+
+** Règles d'accord
+
+*Pas de panique, c'est en fait simple!!*
+\emsp
+#+BEGIN_QUOTE
+Auxiliaire avoir - COD /avant/ le verbe
+#+END_QUOTE
+#+BEGIN_VERSE
+Il l'a pris (= le verre)
+Il l'a prise (= la pomme)
+Il les a prises (= les pommes)
+#+END_VERSE
+
+** "Nous" et "on"
+"On", techniquement, est un équivalent de l'anglais "it"
+#+BEGIN_VERSE
+On dit souvent que...
+#+END_VERSE
+Mais dans le langage courant, il est utilisé à la place de "nous"
+#+BEGIN_VERSE
+On y va (= nous y allons)
+On arrive! (= nous arrivons!)
+#+END_VERSE
+Ceci est cependant à éviter à l'écrit, à moins que l'on veuille donner au texte une connotation familière
+
+
+** Articles définis et indéfinis
+\emsp
+*** Forme
+
+**** Définis:                                                      :BMCOL:
+:PROPERTIES:
+:BEAMER_col: 0.45
+:END:
+\emsp
+\emsp
+Défini
+
+| français: | le/la | les |
+|-----------+-------+-----|
+| anglais:  | the   | the |
+
+#+BEGIN_VERSE
+le chat / les chats
+the cat / the cats
+#+END_VERSE
+
+**** Indéfinis:                                                    :BMCOL:
+:PROPERTIES:
+:BEAMER_col: 0.45
+:END:
+\emsp
+\emsp
+Indéfini
+
+| français: | un/une | des |
+|-----------+--------+-----|
+| anglais:  | a      |     |
+
+#+BEGIN_VERSE
+un chat / des chats
+a cat / cats
+#+END_VERSE
+
+** Articles définis et indéfinis
+\emsp
+*** Usage
+
+**** Définis:                                                      :BMCOL:
+:PROPERTIES:
+:BEAMER_col: 0.5
+:END:
+Défini
+\thinsp
+On sait duquel il s'agit. Le nom est *défini*
+\thinsp
+#+BEGIN_VERSE
+Le chat _de mon voisin_
+
+La terre est ronde
+#+END_VERSE
+
+**** Indéfinis:                                                    :BMCOL:
+:PROPERTIES:
+:BEAMER_col: 0.5
+:END:
+\thinsp
+\emsp
+\emsp
+Indéfini
+\thinsp
+On ne sait pas duquel il s'agit. Le nom est *indéfini*
+\thinsp
+#+BEGIN_VERSE
+J'ai vu un chat noir ce matin
+#+END_VERSE
+\thinsp
+_C'est en fait très similaire à l'anglais. Réfléchissez à ce que vous diriez en anglais_
+
+** Adverbes
+\loz Invariables
+\thinsp
+\loz Généralement formés à partir d'adjectifs + "ment"
+#+BEGIN_VERSE
+grand \rightarrow grandement
+#+END_VERSE
+
+* Structure de texte: vocabulaire
+
+** Énumérer
+
+*** Commencer
+#+BEGIN_VERSE
+Premièrement
+D’abord
+Tout d'abord
+Au début
+Pour commencer
+#+END_VERSE
+
+** Énumérer
+
+*** Continuer
+
+**** chronologiquement                                                :BMCOL:
+:PROPERTIES:
+:BEAMER_col: 0.3
+:END:
+\emsp
+/Chronologiquement/
+#+BEGIN_VERSE
+Deuxièmement
+Ensuite
+Puis
+Après
+\thinsp
+\thinsp
+#+END_VERSE
+ 
+**** en ajoutant                                                      :BMCOL:
+:PROPERTIES:
+:BEAMER_col: 0.3
+:END:
+\emsp
+/En ajoutant/
+#+BEGIN_VERSE
+De plus
+Ajoutons que
+En outre
+Par ailleurs
+Aussi
+Également
+#+END_VERSE
+
+** Énumérer
+
+*** Finir
+#+BEGIN_VERSE
+Enfin
+Finalement
+Pour finir
+Pour terminer
+Pour conclure
+En conclusion
+#+END_VERSE
+
+** Contraster/comparer
+
+*** Similarités                                                       :BMCOL:
+:PROPERTIES:
+:BEAMER_col: 0.45
+:END:
+/Similarités/
+#+BEGIN_VERSE
+De la même manière
+De la même façon
+Similairement
+\thinsp
+\thinsp
+\thinsp
+\thinsp
+#+END_VERSE
+
+*** Différences                                                       :BMCOL:
+:PROPERTIES:
+:BEAMER_col: 0.45
+:END:
+/Différences/
+#+BEGIN_VERSE
+En revanche
+Au contraire
+Alors que
+Pourtant
+D'autre part
+D'un autre côté
+Par ailleurs
+#+END_VERSE
+
+** Causalité
+#+BEGIN_VERSE
+Du coup
+En conséquence
+Par conséquent
+Il en résulte que
+De ce fait
+Donc
+Ainsi
+C'est pourquoi
+#+END_VERSE
+
+* Outils
+
+** Comment faire les caractères français sur n'importe quel clavier
+
+*** col1                                                            :BMCOL:
+:PROPERTIES:
+:BEAMER_col: 0.3
+:END:
+\nbsp \nbsp \nbsp Clavier international
+
+*** col2                                                            :BMCOL:
+:PROPERTIES:
+:BEAMER_col: 0.2
+:END:
+#+BEGIN_VERSE
+'' \rightarrow '
+'e \rightarrow é
+'c \rightarrow ç
+
+`e \rightarrow è
+`a \rightarrow à
+`u \rightarrow ù
+#+END_VERSE
+
+*** col3                                                            :BMCOL:
+:PROPERTIES:
+:BEAMER_col: 0.5
+:END:
+#+BEGIN_VERSE
+^^ \rightarrow ^
+^a \rightarrow â
+^e \rightarrow ê
+^i \rightarrow î
+^u \rightarrow û
+
+"" \rightarrow "
+"e \rightarrow ë
+"i \rightarrow ï
+"o \rightarrow ö
+#+END_VERSE
+
+** Dictionnaires
+
+*** Français
+\thinsp
+Le meilleur dictionnaire de français en ligne!
+#+BEGIN_QUOTE
+http://www.cnrtl.fr/definition/
+#+END_QUOTE
+\emsp
+*** Français/anglais
+#+BEGIN_QUOTE
+http://www.wordreference.com/
+#+END_QUOTE
+
+** Plagiat
+
+#+BEGIN_QUOTE
+http://www.lib.sfu.ca/help/academic-integrity/plagiarism
+\thinsp
+http://www.lib.sfu.ca/help/academic-integrity/plagiarism-tutorial
+\thinsp
+https://www.sfu.ca/students/academicintegrity/resources/academichonestyguide.html
+\thinsp
+http://www.sfu.ca/~smith/plagiarism.html
+\thinsp
+https://www.sfu.ca/biology/academic-honesty.html
+#+END_QUOTE
+
+** Rencontrer des gens pour parler français
+\emsp
+*** Meetup français
+\thinsp
+Vancouver French Langage Meetup
+#+BEGIN_QUOTE
+http://www.meetup.com/Vancouver-French-Meetup/
+#+END_QUOTE
+\thinsp
+*** Le Centre Culturel Francophone de Vancouver
+#+BEGIN_QUOTE
+http://www.lecentreculturel.com/en
+#+END_QUOTE
+\thinsp
+*** App
+\thinsp
+ Hello Talk
+#+BEGIN_QUOTE
+ http://www.hellotalk.com/#en
+#+END_QUOTE
+
+** Écouter du français: podcasts (baladodiffusions au Canada)
+
+*** Histoire et culture
+\thinsp
+Radio Canada: Aujourd'hui l'histoire
+#+BEGIN_QUOTE
+http://ici.radio-canada.ca/emissions/aujourd_hui_l_histoire/2016-2017/
+#+END_QUOTE
+France Culture: Les nuits de France Culture
+#+BEGIN_QUOTE
+http://www.franceculture.fr/emissions/les-nuits-de-france-culture
+#+END_QUOTE
+
+** Écouter du français: podcasts (baladodiffusions au Canada)
+
+*** Infos ("Informations" en français de France ou "Nouvelles" au Canada)
+\thinsp
+France Inter: Le journal de 18h
+#+BEGIN_QUOTE
+https://www.franceinter.fr/emissions/le-journal-de-18h
+#+END_QUOTE
+Radio Canada: Midi info
+#+BEGIN_QUOTE
+http://ici.radio-canada.ca/mesAbonnements/baladodiffusion/index_emission.asp?path=radio/midiinfo
+#+END_QUOTE
+
+** Écouter du français: podcasts (baladodiffusions au Canada)
+
+*** Sciences et technologie
+\thinsp
+France Culture: La marche des sciences
+#+BEGIN_QUOTE
+https://www.franceculture.fr/emissions/la-marche-des-sciences
+#+END_QUOTE
+Radio Canada: Les années lumières
+#+BEGIN_QUOTE
+http://ici.radio-canada.ca/mesAbonnements/baladodiffusion/index_emission.asp?path=radio/lumiere
+#+END_QUOTE
+
+** Voir/regarder du français
+\emsp
+*** Théâtre en français
+\thinsp
+Théâtre la Seizième
+#+BEGIN_QUOTE
+http://seizieme.ca/
+#+END_QUOTE
+\thinsp
+*** Internet
+\thinsp
+Nombreuses options pour voir des films, apprendre de nouveaux mots, améliorer sa prononciation, apprendre à conjuguer...
+
+** Voir/regarder du français
+\emsp
+*** Films
+\thinsp
+De nombreux films français sont disponibles gratuitement dans les bibliothèques publiques et de SFU
+\thinsp
+\nbsp \loz SFU movie collection
+\thinsp
+\nbsp \loz Vancouver Public Library
+\thinsp
+\nbsp \loz Burnaby Public Library
+
+* Questions                                                     :B_fullframe:
+:PROPERTIES:
+:BEAMER_env: fullframe
+:END:
+
+\begin{center}
+\textcolor{MetroLightViolet}{\Huge Questions?}
+\end{center}
+
+N'hésitez pas à prendre rendez-vous pour des consultations particulières
+#+BEGIN_QUOTE
+mardis 10h30 à 14h
+mercredis midi à 1h30
+#+END_QUOTE
+
+Si vous avez des suggestions d'ateliers d'écriture en français qui vous seraient utiles, envoyez moi vos suggestions!
+\begin{center}
+\textcolor{MetroLightViolet}{\large Merci!}
+\end{center}
